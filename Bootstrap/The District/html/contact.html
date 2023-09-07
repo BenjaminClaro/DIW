@@ -51,11 +51,13 @@
             <div class="col">
                 <label for="nom">Nom</label>
                 <input type="text" class="form-control" name="nom" id="nom" required>
+                <span id="nom_manquant"></span>
             </div>
             <div class="col-1"></div>
             <div class="col">
                 <label for="prenom">Prenom</label>
                 <input type="text" class="form-control" name="prenom" id="prenom" required>
+                <span id="prenom_manquant"></span>
             </div>
             <div class="col-1"></div>
         </div>
@@ -65,11 +67,13 @@
             <div class="col">
                 <label for="mail">E-Mail</label>
                 <input type="email" class="form-control" name="mail" id="mail" required>
+                <span id="mail_manquant"></span>
             </div>
             <div class="col-1"></div>
             <div class="col">
                 <label for="tel">Téléphone</label>
                 <input type="tel" class="form-control" name="tel" id="tel" required>
+                <span id="tel_manquant"></span>
             </div>
             <div class="col-1"></div>
         </div>
@@ -79,12 +83,13 @@
             <div class="col">
                 <label for="demande">Votre demande</label>
                 <textarea class="form-control" name="demande" id="demande" rows="5" required> </textarea>
+                <span id="demande_manquant"></span>
             </div>
             <div class="col-1"></div>
         </div>
 
 
-        <button type="submit" class="btn btn-primary justify-content-center">Envoyer</button>
+        <button type="submit" class="btn btn-primary justify-content-center" id="submit">Envoyer</button>
     </form>
 
 
@@ -105,7 +110,7 @@
     </footer>
 
 
-
+    <script src="../js/javascript.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
