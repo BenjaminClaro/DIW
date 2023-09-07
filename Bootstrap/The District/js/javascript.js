@@ -27,12 +27,11 @@ function f_valid(e){
     if (nom.validity.valueMissing){
         e.preventDefault();
         nom_manquant.textContent = "Champ nom vide";
-        nom_manquant.style.color = "red";
     }
     else if (nom_validation.test(nom.value) == false){
         e.preventDefault();
         nom_manquant.textContent = "Champ nom invalide";
-        nom_manquant.style.color = "red";
+
     }
     else{    
             
@@ -42,12 +41,12 @@ function f_valid(e){
     if (prenom.validity.valueMissing){
         e.preventDefault();
         prenom_manquant.textContent = "Champ prenom vide";
-        prenom_manquant.style.color = "red";
+
     }
     else if (prenom_validation.test(prenom.value) == false){
         e.preventDefault();
         prenom_manquant.textContent = "Champ prenom invalide";
-        prenom_manquant.style.color = "red";
+
     }
     else{    
             
@@ -57,12 +56,12 @@ function f_valid(e){
     if (mail.validity.valueMissing){
         e.preventDefault();
         mail_manquant.textContent = "Champ E-mail vide";
-        mail_manquant.style.color = "red";
+
     }
     else if (mail_validation.test(mail.value) == false){
         e.preventDefault();
         mail_manquant.textContent = "Champ E-mail invalide";
-        mail_manquant.style.color = "red";
+
     }
     else{    
             
@@ -74,12 +73,12 @@ function f_valid(e){
     if (tel.validity.valueMissing){
         e.preventDefault();
         tel_manquant.textContent = "Champ téléphone vide";
-        tel_manquant.style.color = "red";
+
     }
     else if (tel_validation.test(tel.value) == false){
         e.preventDefault();
         tel_manquant.textContent = "Champ téléphone invalide";
-        tel_manquant.style.color = "red";
+
     }
     else{    
             
@@ -91,7 +90,7 @@ function f_valid(e){
     if (demande.validity.valueMissing){
         e.preventDefault();
         demande_manquant.textContent = "Champ demande vide";
-        demande_manquant.style.color = "red";
+
     }
     else{    
             
