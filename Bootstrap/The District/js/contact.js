@@ -35,7 +35,7 @@ function f_valid(e){
         nom_manquant.style.color = "red";
     }
     else{    
-            
+        nom_manquant.innerHTML = "";
     }
 
 
@@ -50,7 +50,7 @@ function f_valid(e){
         prenom_manquant.style.color = "red";
     }
     else{    
-            
+        prenom_manquant.innerHTML = "";
     }
 
 
@@ -65,7 +65,7 @@ function f_valid(e){
         mail_manquant.style.color = "red";
     }
     else{    
-            
+        mail_manquant.innerHTML = "";  
     }
 
 
@@ -82,7 +82,7 @@ function f_valid(e){
         tel_manquant.style.color = "red";
     }
     else{    
-            
+        tel_manquant.innerHTML = "";  
     }
 
 
@@ -94,7 +94,7 @@ function f_valid(e){
         demande_manquant.style.color = "red";
     }
     else{    
-            
+        demande_manquant.innerHTML = "";   
     }
 
 

@@ -31,7 +31,7 @@ function f_valid(e){
         nom_manquant.style.color = "red";
     }
     else{    
-            
+            nom_manquant.innerHTML = "";
     }
 
 
@@ -46,7 +46,7 @@ function f_valid(e){
         mail_manquant.style.color = "red";
     }
     else{    
-            
+        mail_manquant.innerHTML = "";
     }
 
 
@@ -63,7 +63,7 @@ function f_valid(e){
         tel_manquant.style.color = "red";
     }
     else{    
-            
+        tel_manquant.innerHTML = "";
     }
 
 
@@ -72,9 +72,9 @@ function f_valid(e){
     if (adresse.validity.valueMissing){
         e.preventDefault();
         adresse_manquant.textContent = "Champ adresse vide";
-        adresseadresse_manquant.style.color = "red";
+        adresse_manquant.style.color = "red";
     }
     else{    
-            
+        adresse_manquant.innerHTML = "";    
     }
 }
