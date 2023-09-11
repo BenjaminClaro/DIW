@@ -1,11 +1,11 @@
 var validation = document.getElementById("submit");
 
 var nom = document.getElementById("nom");
-var nom_validation = new RegExp("^[A-Za-z-]+$");
+var nom_validation = new RegExp("^[A-Za-z- ]+$");
 var nom_manquant = document.getElementById("nom_manquant");
 
 var prenom = document.getElementById("prenom");
-var prenom_validation = new RegExp("^[A-Za-z-]+$");
+var prenom_validation = new RegExp("^[A-Za-z- ]+$");
 var prenom_manquant = document.getElementById("prenom_manquant");
 
 var mail = document.getElementById("mail");
